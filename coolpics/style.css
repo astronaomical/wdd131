@@ -17,16 +17,18 @@ footer {
     color: white;
 }
 
-main {
+.gallery {
     display: grid;
     grid-template-columns: 1fr;
     gap: 2rem;
     margin: 0 auto; 
     padding: 1rem;
-    background-color: lightgray;
+    background-color: lightgray;  
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
-main img {
+.gallery img {
     width: 100%;
     max-width: 300px;
     display: block;
@@ -37,6 +39,7 @@ main img {
     border: 1px solid #ccc;
     margin: 0 auto;
     box-sizing: border-box;
+    box-shadow: 5px 5px 15px black;
 }
 
 h1 {
@@ -61,17 +64,10 @@ nav a:hover {
     color: white;
     display: block;
     margin: 0 auto;
-}
-
-.menu-text {
     font-size: 1.5rem;
     font-weight: bold;
     text-decoration: underline;
     margin: 5px 0;
-}
-
-#work {
-    grid-column: 1 / -1;
 }
 
 footer {
@@ -81,9 +77,8 @@ footer {
 }
 
 
-
 @media screen and (min-width: 700px) {
-    main{
+    .gallery {
         grid-template-columns: 1fr 1fr;
     }
     .menu-btn{
@@ -99,7 +94,7 @@ footer {
           
 
 @media screen and (min-width: 1000px) {
-    main {
+    .gallery {
         grid-template-columns: 1fr 1fr 1fr;
         margin: 0 auto;
     }
