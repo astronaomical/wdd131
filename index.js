@@ -1,6 +1,6 @@
 year = document.querySelector("#year");
 const currentYear = new Date().getFullYear();
-year.textContent= currentYear;
+year.textContent = currentYear;
 
 let lastModified = new Date(document.lastModified);
 
