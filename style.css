@@ -1,0 +1,95 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  max-width: 720px;
+  background: white;
+  margin: auto;
+  padding: 15px;
+}
+
+header {
+  background: midnightblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+header h1 {
+  color: white;
+  font-size: 2.5em;
+  padding: 15px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+
+nav h2 {
+  color: midnightblue;
+  font-size: 1.5em;
+  padding: 30px 15px;
+  margin: 15px 15px 0 15px;
+  border: 2px solid midnightblue;
+}
+
+main {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main img {
+  max-width: 180px;
+  margin: 0;
+  padding: 15px;
+  border: 2px solid white;
+}
+
+main ul li {
+  padding: 10px;
+}
+
+main ul li a:link, main ul li a:visited  {
+  color: midnightblue;
+}
+
+main ul li a:hover, main ul li a:active  {
+  color: darkorange;
+}
+
+main ul ul {
+  list-style-type: disc;
+}
+
+ul:nth-child(3) {
+  list-style-type: none; 
+  padding: 0;
+  margin-top: 0;
+}
+
+hr {
+  border: 1px solid midnightblue;
+  width: 100%;
+}
+
+footer {
+  background: midnightblue;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+.updated {
+  font-size: 0.875em;
+  color: darkorange; 
+  margin-top: 0;
+}
